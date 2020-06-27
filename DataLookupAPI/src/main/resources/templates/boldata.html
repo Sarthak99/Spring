@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="ISO-8859-1">
+<title>BOL Viewer</title>
+</head>
+<body>
+	<h2>BOL Data</h2>
+	<br />
+	<form th:action="@{/BillOfLadingData}" method="get">
+
+		<table border="1">
+			<tr>
+				<td>BOL</td>
+				<td>Store</td>
+			</tr>
+			<tr>
+				<td th:text="${billofLadingNumber}">BOL No.</td>
+				<td th:text="${storeId}">Store</td>
+			</tr>
+		</table>
+		<br />
+		<table border="1">
+			<tr>
+				<td>Container id</td>
+				<td>Distribution Number</td>
+				<td>Item ID</td>
+				<td>Requested Quantity</td>
+				<td>Shipped Quantity</td>
+				<td>Shipped Weight</td>
+				<td>InStore Date</td>
+				<td>MnP Reference</td>
+				<td>TPNB</td>
+			</tr>
+			<tr th:each="detail : ${bolDetailEntities}">
+				<td th:text="${detail.containerId}">Container id</td>
+				<td th:text="${detail.distributionNumber}">Distribution Number</td>
+				<td th:text="${detail.itemId}">Item ID</td>
+				<td th:text="${detail.shipQuantity}">Requested Quantity</td>
+				<td th:text="${detail.shipQuantity}">Shipped Quantity</td>
+				<td th:text="${detail.shipWeight}">Shipped Weight</td>
+				<td th:text="${detail.inStoreDate}">InStore Date</td>
+				<td th:text="${detail.MnPRef}">MnP Reference</td>
+				<td th:text="${detail.packItemEntity[__${0}__].tpnb}">TPNB</td>
+			</tr>
+		</table>
+	</form>
+</body>
+</html>

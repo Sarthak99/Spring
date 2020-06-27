@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="ISO-8859-1">
+<title>BillOfLading Request Page</title>
+</head>
+<body>
+	<h1>BillOfLading Report</h1>
+	<p th:if="${noDepots}" class="error">No DCs have been configured for this view.</p>
+	<p th:if="${InvalidDepot}" class="error">Please select a valid DC ID.</p>
+	<p th:if="${BlankBOLField}" class="error">BOL field cannot be blank !!! Please enter at least 13-digit BOL.</p>
+	<p th:if="${InvalidBOLSize}" class="error">!!!! Please enter at least 13-digit BOL !!!!</p>
+	<p th:if="${InvalidBOL}" class="error">!!!! BOL data not found !!!!</p>
+	<form th:action="@{/BillOfLading}" th:object="${BOLForm}" method="post">		
+		<table>
+        <tr>
+        <td>Select DC:</td>
+        <td>
+        <select th:field="*{depotId}">
+        	<option value=""> -- </option>
+            <option th:each="depot : ${depots}"
+                    th:value="${depot.depotId}"
+                    th:text="${depot.depotId}"/>
+        </select>
+        </td>
+        </tr>
+        </table>
+        <br/>
+        <label for="BOL">BOL No.</label>
+		<input type="text" id="BOL" name="BOL">
+		<br/>
+		<input type="submit" value="Search">
+	</form>
+</body>
+</html>

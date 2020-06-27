@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="ISO-8859-1">
+<title>Login Page</title>
+</head>
+<body>	
+	<h1>Login Form</h1>
+	<p th:if="${invalidCredentials}" class="error">Username not allowed Access</p>
+	<form th:action="@{/login}" th:object="${loginForm}" method="post">
+		<label for="username">Username</label>
+		<input type="text" id="username" name="username" autofocus="autofocus">
+		<br /> 
+		<input type="submit" value="Log In">
+	</form>
+</body>
+</html>

@@ -1,0 +1,259 @@
+﻿{
+  "billOfLading": {
+    "header": {
+      "bolNumber": "00009020028795430",
+      "fromLocation": "902",
+      "fromLocationType": "W",
+      "toLocation": "5129",
+      "toLocationType": "STORE",
+      "shipmentDate": "2018-04-05 12:26:42",
+      "estimatedArrivalDate": "2018-04-05 12:26:42",
+      "trailerId": "10547",
+      "carrierCode": "CT",
+      "shipCountry": "THA",
+      "sealNumber": "3314678/677",
+      "trunkedDC": "",
+      "asnType": "",
+      "remarks": "",
+      "targetSystem": "ALL",
+      "tripId": "12354",
+      "uda1": "",
+      "uda2": "",
+      "uda3": ""
+    },
+    "detail": {
+      "bolDetail": [
+        {
+          "containerId": "51290000000000003193",
+          "distributionNumber": "1707365",
+          "distributionType": "T",
+          "pickNotBeforeDate": "2018-04-05",
+          "pickNotAfterDate": "2018-04-05",
+          "inStoreDate": "2018-04-05",
+          "poNumber": "",
+          "requestedQuantity": "10",
+          "itemId": "104502426",
+          "itemDescription": "TPND_item_desc_regular item",
+          "uomCode": "EA",
+          "shipQuantity": "10",
+          "shipWeight": "",
+          "bestBeforeDate": "2018-04-15",
+          "packIndicator": "Y",
+          "simplePackIndicator": "Y",
+          "depositItemType": "",
+          "itemOrderType": "",
+          "uda4": "51290000000000003193",
+          "uda5": "",
+          "MnPRef": "88001"
+          "packItem": [
+            {
+              "tpnb": "006880088",
+              "tpnbDescription": "TPNB_item_desc",
+              "unitQuantity": "4",
+              "saleType": "",
+              "depositItemType": ""
+            }
+          ]
+        },
+        {
+          "containerId": "51290000000000003194",
+          "distributionNumber": "900170736",
+          "distributionType": "A",
+          "pickNotBeforeDate": "2018-04-05",
+          "pickNotAfterDate": "2018-04-05",
+          "inStoreDate": "2018-04-05",
+          "poNumber": "65231",
+          "requestedQuantity": "20",
+          "itemId": "104502412",
+          "itemDescription": "TPND_item_desc_regular item",
+          "uomCode": "EA",
+          "shipQuantity": "15",
+          "shipWeight": "",
+          "bestBeforeDate": "2018-04-15",
+          "packIndicator": "Y",
+          "simplePackIndicator": "Y",
+          "depositItemType": "",
+          "itemOrderType": "",
+          "uda4": "",
+          "uda5": "",
+		  "MnPRef": "88001"
+          "packItem": [
+            {
+              "tpnb": "006889911",
+              "tpnbDescription": "TPNB_item_desc",
+              "unitQuantity": "6",
+              "saleType": "",
+              "depositItemType": ""
+            }
+          ]
+        },
+        {
+          "containerId": "51290000000000003195",
+          "distributionNumber": "900170832",
+          "distributionType": "A",
+          "pickNotBeforeDate": "2018-04-05",
+          "pickNotAfterDate": "2018-04-05",
+          "inStoreDate": "2018-04-05",
+          "poNumber": "65232",
+          "requestedQuantity": "20",
+          "itemId": "104502424",
+          "itemDescription": "TPND_item_desc",
+          "uomCode": "KG",
+          "shipQuantity": "15",
+          "shipWeight": "15.125",
+          "bestBeforeDate": "2018-04-15",
+          "packIndicator": "Y",
+          "simplePackIndicator": "Y",
+          "depositItemType": "",
+          "itemOrderType": "L",
+          "uda4": "",
+          "uda5": "",
+		  "MnPRef": "88001"
+          "packItem": [
+            {
+              "tpnb": "006889924",
+              "tpnbDescription": "TPNB_item_desc",
+              "unitQuantity": "1",
+              "saleType": "V",
+              "depositItemType": ""
+            }
+          ]
+        },
+        {
+          "containerId": "51290000000000003193",
+          "distributionNumber": "900170863",
+          "distributionType": "A",
+          "pickNotBeforeDate": "2018-04-05",
+          "pickNotAfterDate": "2018-04-05",
+          "inStoreDate": "2018-04-05",
+          "poNumber": "65233",
+          "requestedQuantity": "20",
+          "itemId": "104502463",
+          "itemDescription": "TPND_item_desc",
+          "uomCode": "EA",
+          "shipQuantity": "15",
+          "shipWeight": "",
+          "bestBeforeDate": "2018-04-15",
+          "packIndicator": "Y",
+          "simplePackIndicator": "N",
+          "depositItemType": "",
+          "itemOrderType": "",
+          "uda4": "",
+          "uda5": "",
+		  "MnPRef": ""
+          "packItem": [
+            {
+              "tpnb": "006889963",
+              "tpnbDescription": "TPNB_item_desc",
+              "unitQuantity": "4",
+              "saleType": "",
+              "depositItemType": ""
+            },
+            {
+              "tpnb": "006889965",
+              "tpnbDescription": "TPNB_item_desc",
+              "unitQuantity": "5",
+              "saleType": "",
+              "depositItemType": ""
+            },
+            {
+              "tpnb": "006889966",
+              "tpnbDescription": "TPNB_item_desc",
+              "unitQuantity": "1",
+              "saleType": "",
+              "depositItemType": ""
+            }
+          ]
+        },
+        {
+          "containerId": "51290000000000003193",
+          "distributionNumber": "900170884",
+          "distributionType": "A",
+          "pickNotBeforeDate": "2018-04-05",
+          "pickNotAfterDate": "2018-04-05",
+          "inStoreDate": "2018-04-05",
+          "poNumber": "65234",
+          "requestedQuantity": "20",
+          "itemId": "104502484",
+          "itemDescription": "TPND_item_desc",
+          "uomCode": "EA",
+          "shipQuantity": "15",
+          "shipWeight": "",
+          "bestBeforeDate": "2018-04-15",
+          "packIndicator": "Y",
+          "simplePackIndicator": "N",
+          "depositItemType": "P",
+          "itemOrderType": "",
+          "uda4": "",
+          "uda5": "",
+		  "MnPRef": ""
+          "packItem": [
+            {
+              "tpnb": "006889841",
+              "tpnbDescription": "TPNB_item_desc",
+              "unitQuantity": "20",
+              "saleType": "",
+              "depositItemType": "A"
+            },
+            {
+              "tpnb": "006889842",
+              "tpnbDescription": "TPNB_item_desc",
+              "unitQuantity": "20",
+              "saleType": "",
+              "depositItemType": "E"
+            },
+            {
+              "tpnb": "006889843",
+              "tpnbDescription": "TPNB_item_desc",
+              "unitQuantity": "1",
+              "saleType": "",
+              "depositItemType": "Z"
+            }
+          ]
+        }
+      ],
+      "tpaDetail": [
+        {
+          "tpnd": "160385951",
+          "tpnb": "070194130",
+          "unitQuantity": "1",
+          "tpndShipQuantity": "33",
+          "tpnbDescription": "เล็กครึ่ง",
+          "tpndDescription": "SP1_เล็กครึ่ง"
+        },
+        {
+          "tpnd": "160385951",
+          "tpnb": "070194130",
+          "unitQuantity": "1",
+          "shipQuantity": "17",
+          "tpnbDescription": "เล็กครึ่ง",
+          "tpndDescription": "SP1_เล็กครึ่ง"
+        },
+        {
+          "tpnd": "160385980",
+          "tpnb": "070194157",
+          "unitQuantity": "1",
+          "shipQuantity": "19",
+          "tpnbDescription": "เล็กเก่า",
+          "tpndDescription": "SP1_เล็กเก่า"
+        },
+        {
+          "tpnd": "160386028",
+          "tpnb": "070194173",
+          "unitQuantity": "1",
+          "shipQuantity": "9",
+          "tpnbDescription": "ใหญ่เก่า",
+          "tpndDescription": "SP1_ใหญ่เก่า"
+        },
+        {
+          "tpnd": "160386184",
+          "tpnb": "070194343",
+          "unitQuantity": "1",
+          "shipQuantity": "8",
+          "tpnbDescription": "ตะกร้าคู่ค้า",
+          "tpndDescription": "SP1_ตะกร้าคู่ค้า"
+        }
+      ]
+    }
+  }
+}

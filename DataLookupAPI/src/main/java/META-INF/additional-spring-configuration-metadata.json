@@ -1,0 +1,13 @@
+{"properties": [
+  {
+    "name": "base_dir",
+    "type": "java.lang.String",
+    "description": "base file path"
+  },
+  {
+    "name": "file_suffix",
+    "type": "java.lang.String",
+    "description": "A description for 'file_suffix'"
+  }
+]
+}
